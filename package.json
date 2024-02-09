@@ -10,7 +10,6 @@
     "preview": "vite preview",
     "test": "vite test",
     "eject": "vite eject",
-    "predeploy": "vite build && copy build\\index.html build\\404.html",
     "deploy": "gh-pages -b master -d build"
   },
   "dependencies": {
