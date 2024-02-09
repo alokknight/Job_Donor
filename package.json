@@ -11,7 +11,7 @@
     "test": "vite test",
     "eject": "vite eject",
     "deploy": "vite build && gh-pages -b master -d dist",
-    "predeploy": "rm -rf dist"
+    "predeploy": "rmdir /s /q dist && mkdir dist"
   },
   "dependencies": {
     "@heroicons/react": "^2.0.17",
