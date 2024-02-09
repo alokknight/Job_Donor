@@ -10,8 +10,9 @@
     "preview": "vite preview",
     "test": "vite test",
     "eject": "vite eject",
-    "deploy": "vite build && gh-pages -b master -d dist",
-    "predeploy": "rmdir /s /q dist && mkdir dist"
+    "predeploy": "rmdir /s /q dist && mkdir dist",
+    "deploy": "vite build && gh-pages -b master -d dist"
+
   },
   "dependencies": {
     "@heroicons/react": "^2.0.17",
